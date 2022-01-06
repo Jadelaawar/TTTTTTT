@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/staking.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+   
+    
+
+    <title>TurtleTribe Staking</title>
+  </head>
+  <body class="body2">
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div  style="height: 70px;" class="container-fluid">
+      
+        <img
+        class="logo"
+          src="img/TT.png"
+          style="max-width: 75px"
+          
+        />
+      </a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul  class=" navbar-nav ml-auto ms-auto nav justify-content-end" >
+              <li  class="nav-item active">
+                  <a style="color: black;" class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a style="color: black;" class="nav-link" href="">Minting</a>
+              </li>
+              <li class="nav-item active">
+                <a style="color: black;" class="nav-link" href="">Token</a>
+            </li>
+              <li class="nav-item active">
+                  <a style="color: black;" class="nav-link" href="/TT-Site-partners-update-main/NFT project/staking.html">Staking</a>
+              </li>
+              
+            
+          </ul>
+          <button style="font-size: 22px;" class="btn me-2 btn-primary ms-lg-1 ms-auto" id="play" type="button">Play Now</button>
+              
+      </div>
+      <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+        </div>
+      </nav>
+
+    
+  </nav>
+  <!--Navigation end-->
+
+    <!--Hero-->
+    <div class="hero1 vh-100 d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="col-lg-7 mx-auto text-center">
+          <div class="text">
+            <h1 class="display-1 text-white">Coming Soon!</h1>
+            <p style="font-size: 20px" class="text-white my-3">
+              Read about our staking system
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Hero-END-->
+    <!--Staking section-->
+    <section class="row w-100 py-10" id="Feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class=" col-md-4 offset-md-4">
+                        <div class="accordion">
+                          <button type="button" class="accordion__button btn me-2 btn-primary ms-lg-1 ms-auto" id="Poopo" >What is Staking?</button>
+                          <div style="padding-top: 30px;" class="accordion__content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad explicabo necessitatibus nemo ut odit magnam ipsam deleniti perspiciatis dignissimos voluptas quisquam error voluptate fuga, exercitationem debitis asperiores, sequi corporis nobis.</p>
+                          </div>
+                          <br>
+                          <br>
+                          <br>
+                          <button type="button" class="accordion__button btn me-2 btn-primary ms-lg-1 ms-auto" id="Poopo" >What is Staking?</button>
+                          <div  style="padding-top: 30px;" class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda, animi quisquam beatae officiis, alias quas consequuntur magnam recusandae excepturi reprehenderit nemo tenetur unde labore facere, dolorum culpa nobis similique.</p>
+                          </div>
+                          <br>
+                          <br>
+                          <br>
+                          
+
+                          <button type="button" class="accordion__button btn me-2 btn-primary ms-lg-1 ms-auto" id="Poopo" >What is Staking?</button>
+                          <div  style="padding-top: 30px;" class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cumque ipsam vel enim molestias ut amet, animi dolore dolor, in magnam accusantium reprehenderit, saepe dolores sint ex reiciendis quos minima?</p>
+                          </div>
+                          <br>
+                          <br>
+                          <br>
+                          <button type="button" class="accordion__button btn me-2 btn-primary ms-lg-1 ms-auto" id="Poopo" >What is Staking?</button>
+                          <div  style="padding-top: 30px;" class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perferendis accusantium odio eligendi consequuntur assumenda impedit? Omnis repellat accusantium maxime commodi voluptatibus, perferendis unde labore vero beatae ut mollitia provident.</p>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <script>
+         document.querySelectorAll(".accordion__button").forEach(button => {
+    button.addEventListener("click", () =>{
+        const accordionContent = button.nextElementSibling;
+        button.classList.toggle(".accordion__button--active");
+        if (button.classList. contains(".accordion__button--active")) {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+        } else{
+            accordionContent.style.maxHeight =0;
+        }
+    });
+    });
+       </script>
+  </body>
+</html>
